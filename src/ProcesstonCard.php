@@ -45,9 +45,9 @@ class ProcesstonCard
     }
 
     public static function generateCardData(
-        $header,
-        $body,
-        $footer
+        $header = [],
+        $body = [],
+        $footer = []
     ){
         return [
             'header' => $header,
